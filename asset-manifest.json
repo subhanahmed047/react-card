@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-card/static/css/main.2cce8147.chunk.css",
+    "main.js": "/react-card/static/js/main.928996f7.chunk.js",
+    "main.js.map": "/react-card/static/js/main.928996f7.chunk.js.map",
+    "runtime~main.js": "/react-card/static/js/runtime~main.683265bf.js",
+    "runtime~main.js.map": "/react-card/static/js/runtime~main.683265bf.js.map",
+    "static/js/2.b41502e9.chunk.js": "/react-card/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/react-card/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/react-card/index.html",
+    "precache-manifest.a1c01aa0d9d8747d533d6bfd5e81ee14.js": "/react-card/precache-manifest.a1c01aa0d9d8747d533d6bfd5e81ee14.js",
+    "service-worker.js": "/react-card/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/react-card/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/react-card/static/media/logo.5d5d9eef.svg"
+  }
+}
