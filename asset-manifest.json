@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-card/static/css/main.2cce8147.chunk.css",
-    "main.js": "/react-card/static/js/main.841e7a17.chunk.js",
-    "main.js.map": "/react-card/static/js/main.841e7a17.chunk.js.map",
+    "main.js": "/react-card/static/js/main.20c35814.chunk.js",
+    "main.js.map": "/react-card/static/js/main.20c35814.chunk.js.map",
     "runtime~main.js": "/react-card/static/js/runtime~main.683265bf.js",
     "runtime~main.js.map": "/react-card/static/js/runtime~main.683265bf.js.map",
     "static/js/2.32146754.chunk.js": "/react-card/static/js/2.32146754.chunk.js",
     "static/js/2.32146754.chunk.js.map": "/react-card/static/js/2.32146754.chunk.js.map",
     "index.html": "/react-card/index.html",
-    "precache-manifest.b4c84eedfacd215d6b435fa98979d8d6.js": "/react-card/precache-manifest.b4c84eedfacd215d6b435fa98979d8d6.js",
+    "precache-manifest.03fad10ad8b97c12dc5d3618f31e5c11.js": "/react-card/precache-manifest.03fad10ad8b97c12dc5d3618f31e5c11.js",
     "service-worker.js": "/react-card/service-worker.js",
     "static/css/main.2cce8147.chunk.css.map": "/react-card/static/css/main.2cce8147.chunk.css.map"
   }
