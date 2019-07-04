@@ -1,4 +1,4 @@
-# React-Card
+# React-Card &middot; [![Build Status](https://travis-ci.org/subhanahmed047/react-card.svg?branch=master)](https://travis-ci.org/subhanahmed047/react-card)
 
 A simple react component that uses the flexbox and styled-components to create a card layout. 
 
