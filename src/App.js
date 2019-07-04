@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Card from './components/card/card';
+import CardContainer from './components/card/container';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const data = [
+        {
+            title: 'Card Grid Layout',
+            img: 'https://picsum.photos/630/300/?image=10',
+        },
+        {
+            title: 'Card Grid Layout',
+            img: 'https://picsum.photos/630/300/?image=10',
+        },
+        {
+            title: 'Card Grid Layout',
+            img: 'https://picsum.photos/630/300/?image=10',
+        },
+        {
+            title: 'Card Grid Layout',
+            img: 'https://picsum.photos/630/300/?image=10',
+        },
+    ];
+    return (
+        <CardContainer>
+            {data.map((card) => (
+                <Card img={card.img} title={card.title} />
+            ))}
+        </CardContainer>
+    );
 }
 
 export default App;
