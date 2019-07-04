@@ -4,7 +4,7 @@ import Card from './components/card/card';
 import Container from './components/container/container';
 
 function App() {
-    const data = [
+    const cards = [
         {
             id: 0,
             title: 'Card Grid Layout',
@@ -32,13 +32,8 @@ function App() {
     ];
     return (
         <Container>
-            {data.map((card) => (
-                <Card
-                    key={card.id}
-                    img={card.img}
-                    title={card.title}
-                    logo={card.logo}
-                />
+            {cards.map((card) => (
+                <Card card={card} />
             ))}
         </Container>
     );

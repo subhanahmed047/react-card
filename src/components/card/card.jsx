@@ -6,14 +6,14 @@ import CardContent from './content';
 import CardTitle from './title';
 import CardContentLogo from './logo';
 
-const Card = ({ img, title, logo }) => {
+const Card = ({ card }) => {
     return (
         <React.Fragment>
             <CardWrapper>
-                <CardImage src={img} alt={title} />
+                <CardImage src={card.img} alt={card.title} />
                 <CardContent>
-                    <CardContentLogo src={logo} alt="Company Logo" />
-                    <CardTitle>{title}</CardTitle>
+                    <CardContentLogo src={card.logo} alt="Company Logo" />
+                    <CardTitle>{card.title}</CardTitle>
                 </CardContent>
             </CardWrapper>
         </React.Fragment >
@@ -21,9 +21,7 @@ const Card = ({ img, title, logo }) => {
 }
 
 Card.propTypes = {
-    img: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    logo: PropTypes.string.isRequired
+    card: PropTypes.object.isRequired,
 };
 
 export default Card;
