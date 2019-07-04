@@ -11,6 +11,8 @@ const CardContent = styled.div`
     display: flex;
     padding: 1rem;
     opacity: 1;
+    transition: all .8s;
+    visibility: hidden;
     justify-content: start;
     flex-direction: row;
     align-items: center;

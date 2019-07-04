@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import devices from '../../constants/devices';
+import CardImage from './image';
+import CardContent from './content';
 
 const CardWrapper = styled.div`
     position: relative;
@@ -10,6 +12,16 @@ const CardWrapper = styled.div`
     flex-direction: column;
     overflow: hidden;
     margin: 1rem;
+
+    &:hover ${CardImage} {
+        webkit-filter: blur(.05rem);
+        filter: blur(.05rem);
+    }
+
+    &:hover ${CardContent} {
+        visibility: visible;
+        opacity: 1;
+    }
 
     @media ${devices.MOBILE_L} {
         width: 50%;
