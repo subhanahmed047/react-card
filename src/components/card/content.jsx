@@ -10,9 +10,9 @@ const CardContent = styled.div`
 	background: rgba(0, 0, 0, 0.6);
     display: flex;
     padding: 1rem;
-    opacity: 1;
-    transition: all .8s;
+    opacity: 0;
     visibility: hidden;
+    transition: visibility .2s, opacity .2s linear;
     justify-content: start;
     flex-direction: row;
     align-items: center;

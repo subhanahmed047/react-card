@@ -33,7 +33,7 @@ function App() {
     return (
         <Container>
             {cards.map((card) => (
-                <Card card={card} />
+                <Card key={card.id} card={card} />
             ))}
         </Container>
     );

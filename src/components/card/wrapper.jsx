@@ -36,6 +36,7 @@ const CardWrapper = styled.div`
         ${CardContent} {
             opacity: 1;
             visibility: visible;
+            transition: opacity 2s linear;
         }
     }
 `;
