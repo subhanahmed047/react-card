@@ -15,11 +15,11 @@ const Card = ({ card }) => {
 }
 
 Card.propTypes = {
-    card: {
+    card: PropTypes.shape({
         img: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
         logo: PropTypes.string.isRequired,
-    }
+    })
 };
 
 export default Card;
