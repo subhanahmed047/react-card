@@ -11,7 +11,7 @@ const CardWrapper = styled.div`
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    margin: 1rem;
+    margin: ${props => props.theme.cardMargin};
 
     &:hover ${CardImage} {
         webkit-filter: blur(.05rem);
@@ -40,5 +40,11 @@ const CardWrapper = styled.div`
         }
     }
 `;
+
+CardWrapper.defaultProps = {
+    theme: {
+        cardMargin: '.5rem',
+    }
+}
 
 export default CardWrapper;
