@@ -14,8 +14,8 @@ const CardWrapper = styled.div`
     margin: ${props => props.theme.cardMargin};
 
     &:hover ${CardImage} {
-        webkit-filter: blur(.05rem);
-        filter: blur(.05rem);
+        webkit-filter: blur(.09rem);
+        filter: blur(.09rem);
     }
 
     &:hover ${CardContent} {
