@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Card from './components/card/card';
-import CardContainer from './components/card/container';
+import Container from './components/container/container';
 
 function App() {
     const data = [
@@ -31,7 +31,7 @@ function App() {
         },
     ];
     return (
-        <CardContainer>
+        <Container>
             {data.map((card) => (
                 <Card
                     key={card.id}
@@ -40,7 +40,7 @@ function App() {
                     logo={card.logo}
                 />
             ))}
-        </CardContainer>
+        </Container>
     );
 }
 
