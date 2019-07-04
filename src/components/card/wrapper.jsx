@@ -23,12 +23,20 @@ const CardWrapper = styled.div`
         opacity: 1;
     }
 
-    @media ${devices.MOBILE_L} {
+    @media ${devices.minWidth.MOBILE_L} {
         width: 50%;
     }
 
-    @media ${devices.TABLET} {
+    @media ${devices.minWidth.TABLET} {
         width: 33%;
+    }
+
+    /* Because there is no hover on a touch devices, display the content by default on tablet or lower width devices */
+    @media only screen and ${devices.maxWidth.TABLET} {
+        ${CardContent} {
+            opacity: 1;
+            visibility: visible;
+        }
     }
 `;
 
