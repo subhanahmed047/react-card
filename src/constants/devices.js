@@ -1,4 +1,4 @@
-const size = {
+const breakpoints = {
     mobileS: '320px',
     mobileM: '375px',
     mobileL: '425px',
@@ -9,25 +9,25 @@ const size = {
 };
 
 const minWidthDevices = {
-    MOBILE_S: `(min-width: ${size.mobileS})`,
-    MOBILE_M: `(min-width: ${size.mobileM})`,
-    MOBILE_L: `(min-width: ${size.mobileL})`,
-    TABLET: `(min-width: ${size.tablet})`,
-    LAPTOP: `(min-width: ${size.laptop})`,
-    LAPTOP_L: `(min-width: ${size.laptopL})`,
-    DESKTOP: `(min-width: ${size.desktop})`,
-    DESKTOP_L: `(min-width: ${size.desktop})`,
+    MOBILE_S: `(min-width: ${breakpoints.mobileS})`,
+    MOBILE_M: `(min-width: ${breakpoints.mobileM})`,
+    MOBILE_L: `(min-width: ${breakpoints.mobileL})`,
+    TABLET: `(min-width: ${breakpoints.tablet})`,
+    LAPTOP: `(min-width: ${breakpoints.laptop})`,
+    LAPTOP_L: `(min-width: ${breakpoints.laptopL})`,
+    DESKTOP: `(min-width: ${breakpoints.desktop})`,
+    DESKTOP_L: `(min-width: ${breakpoints.desktop})`,
 };
 
 const maxWidthDevices = {
-    MOBILE_S: `(max-width: ${size.mobileS})`,
-    MOBILE_M: `(max-width: ${size.mobileM})`,
-    MOBILE_L: `(max-width: ${size.mobileL})`,
-    TABLET: `(max-width: ${size.tablet})`,
-    LAPTOP: `(max-width: ${size.laptop})`,
-    LAPTOP_L: `(max-width: ${size.laptopL})`,
-    DESKTOP: `(max-width: ${size.desktop})`,
-    DESKTOP_L: `(max-width: ${size.desktop})`,
+    MOBILE_S: `(max-width: ${breakpoints.mobileS})`,
+    MOBILE_M: `(max-width: ${breakpoints.mobileM})`,
+    MOBILE_L: `(max-width: ${breakpoints.mobileL})`,
+    TABLET: `(max-width: ${breakpoints.tablet})`,
+    LAPTOP: `(max-width: ${breakpoints.laptop})`,
+    LAPTOP_L: `(max-width: ${breakpoints.laptopL})`,
+    DESKTOP: `(max-width: ${breakpoints.desktop})`,
+    DESKTOP_L: `(max-width: ${breakpoints.desktop})`,
 };
 
 const devices = {
