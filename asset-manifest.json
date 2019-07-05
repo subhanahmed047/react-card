@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-card/static/css/main.d498bfb3.chunk.css",
-    "main.js": "/react-card/static/js/main.a0ad769c.chunk.js",
-    "main.js.map": "/react-card/static/js/main.a0ad769c.chunk.js.map",
+    "main.js": "/react-card/static/js/main.a7d3fff4.chunk.js",
+    "main.js.map": "/react-card/static/js/main.a7d3fff4.chunk.js.map",
     "runtime~main.js": "/react-card/static/js/runtime~main.683265bf.js",
     "runtime~main.js.map": "/react-card/static/js/runtime~main.683265bf.js.map",
     "static/js/2.a246ed4a.chunk.js": "/react-card/static/js/2.a246ed4a.chunk.js",
     "static/js/2.a246ed4a.chunk.js.map": "/react-card/static/js/2.a246ed4a.chunk.js.map",
     "index.html": "/react-card/index.html",
-    "precache-manifest.f01157ab32891f4544e1aaea93e10c2a.js": "/react-card/precache-manifest.f01157ab32891f4544e1aaea93e10c2a.js",
+    "precache-manifest.5e11fcb40c415ef8612eca8355f1a4be.js": "/react-card/precache-manifest.5e11fcb40c415ef8612eca8355f1a4be.js",
     "service-worker.js": "/react-card/service-worker.js",
     "static/css/main.d498bfb3.chunk.css.map": "/react-card/static/css/main.d498bfb3.chunk.css.map"
   }
