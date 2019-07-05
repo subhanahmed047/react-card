@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Container from '../components/container/container';
 import Card from '../components/card/card';
 
@@ -10,7 +9,7 @@ const TextWrapper = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #efefef;
+    background-color: #F5F2F0;
     flex: 1;
     height: 10vh;
     padding: 1rem;
@@ -57,10 +56,10 @@ const Docs = () => {
             </Container>
             <DocWrapper>
                 <p>Following is the code definition, props and usage for React-Card Component. </p>
-                <SyntaxHighlighter language="javascript" style={dark}>
+                <SyntaxHighlighter language="javascript">
                     {cardComponentString}
                 </SyntaxHighlighter>
-                <SyntaxHighlighter language="javascript" style={dark}>
+                <SyntaxHighlighter language="javascript">
                     {cardComponentPropsString}
                 </SyntaxHighlighter>
             </DocWrapper>
