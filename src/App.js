@@ -4,6 +4,7 @@ import Card from './components/card/card';
 import Container from './components/container/container';
 import theme from './theme/theme';
 import GlobalStyle from './theme/globalStyles';
+import Docs from './docs';
 
 function App() {
     const cards = [
@@ -36,6 +37,8 @@ function App() {
         <ThemeProvider theme={theme}>
             <React.Fragment>
                 <GlobalStyle />
+                <Docs />
+                <h3>Usage</h3>
                 <Container>
                     {cards.map((card) => (
                         <Card key={card.id} card={card} />
