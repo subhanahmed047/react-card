@@ -22,17 +22,23 @@ yarn test
 ## TDD
 The following tools are used for testing:
 
-- Jest
-- React-Test-Renderer
+- [Jest](https://jestjs.io/)
+- [React-Test-Renderer](https://reactjs.org/docs/test-renderer.html)
+- [Enzyme](https://airbnb.io/enzyme/)
 
 The following tests are performed in this project:
 
 1. Smoke Testing
-    - Why? Because this test provides you with Build Verification by ensuring that the most important features work.
+    - Why: Because this test provides you with Build Verification by ensuring that the most important features work.
     - I test the root component (app.js in this case) to see if the component and its children work without crashing. 
-2. Snapshot Testing
-    - Why? Beacuse it ensures that a UI does not change unexpectedly. 
-    - I have written snapshots for several child components of the card to compare their mounted output with a snapshot created at the start. 
+2. Unit Testing
+    - Why: To see if every compnent inside the card works individualy.
+3. Integration Testing
+    - Why: To see if components work when combined.
+    - I have performed an integaration test to check if the card component still mounts if a title from CardTitle component changes. 
+4. Snapshot Testing
+    - Why: Beacuse it ensures that a UI does not change unexpectedly. 
+    - I have written a snapshot for a child component of the card to compare its mounted output with a snapshot created at the start. 
     - This test works best with components that do not change a lot. 
 
 ## CI Process
