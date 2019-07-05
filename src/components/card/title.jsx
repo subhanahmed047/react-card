@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-const CardTitle = styled.div`
+const CardTitle = styled.h4`
     color: ${props => props.theme.colorPrimary};
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: capitalize;

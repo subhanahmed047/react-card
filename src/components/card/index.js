@@ -3,5 +3,13 @@ import CardImage from './image';
 import CardContent from './content';
 import CardTitle from './title';
 import CardContentLogo from './logo';
+import Card from './card';
 
-export { CardWrapper, CardImage, CardContent, CardTitle, CardContentLogo };
+export {
+    Card,
+    CardWrapper,
+    CardImage,
+    CardContent,
+    CardTitle,
+    CardContentLogo,
+};

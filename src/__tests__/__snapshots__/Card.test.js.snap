@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Card Wrapper component card wrapper component matches the snapshot 1`] = `
+exports[`Card Component Snapshot Tests CardWrapper Component matches the snapshot 1`] = `
 <div
   className="sc-htpNat eyZxIT"
 />
