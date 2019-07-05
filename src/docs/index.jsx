@@ -17,6 +17,11 @@ const TextWrapper = styled.section`
     text-align: center;
 `;
 
+const DocWrapper = styled.section`
+    max-width: 70%;
+    margin: auto auto;
+`;
+
 const card = {
     title: 'Home and away',
     img: 'https://i.ibb.co/jkqfpL9/tile.jpg',
@@ -50,14 +55,15 @@ const Docs = () => {
             <Container>
                 <Card card={card} ></Card>
             </Container>
-            <h3>Code</h3>
-            <SyntaxHighlighter language="javascript" style={dark}>
-                {cardComponentString}
-            </SyntaxHighlighter>
-            <h3>Props</h3>
-            <SyntaxHighlighter language="javascript" style={dark}>
-                {cardComponentPropsString}
-            </SyntaxHighlighter>
+            <DocWrapper>
+                <p>Following is the code definition, props and usage for React-Card Component. </p>
+                <SyntaxHighlighter language="javascript" style={dark}>
+                    {cardComponentString}
+                </SyntaxHighlighter>
+                <SyntaxHighlighter language="javascript" style={dark}>
+                    {cardComponentPropsString}
+                </SyntaxHighlighter>
+            </DocWrapper>
         </React.Fragment>
     );
 }
