@@ -7,6 +7,10 @@ const CardTitle = styled.h4`
     letter-spacing: 1px;
     text-transform: capitalize;
     margin: 0px;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 `;
 
 CardTitle.defaultProps = {
